@@ -1,0 +1,117 @@
+.input1{
+
+    margin-left: 100px;
+   
+ }
+ .input1 i{
+
+    background-color: green;
+    color: aliceblue;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    margin-top: 30px;
+ }
+ .input2{
+
+    font-family: ShopifySans,Helvetica,Arial,sans-serif;
+    margin-left: 140px;
+    margin-top: -25px;
+    font-size: 30px;
+
+ }
+ .input3 ul{
+
+margin-left: 270px;
+list-style: none;
+display: flex;
+font-size: 20px;
+
+ }
+ .input3 ul li{
+
+    padding: 0px 30px;
+    margin-top: -25px;
+ }
+ .input4{
+
+    margin-left: 380px;
+    margin-top: -20px;
+ }
+ .input5{
+
+    margin-left: 640px;
+    margin-top: -15px;
+ }
+ .input3 ul li:nth-child(4){
+
+    margin-left: 90px;
+ }
+ .input6{
+
+    margin-left: 1100px;
+    margin-top: -20px;
+   
+   
+ }
+ .input6 button{
+
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-top: -15px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-left: -245px;
+ }
+ @media (max-width:768px){
+
+    .input1 i{
+
+        width: 30px;
+        height: 30px;
+        margin-left: -80px;
+
+    }
+    .input2{
+
+        font-size: 10px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    
+
+    .input3 ul{
+
+        margin-left: 10px;
+        
+    }
+    .input3 ul li{
+
+        padding: 0px 2px;
+        margin-left: 30px;
+        font-size: 10px;
+        margin-top: -20px;
+    }
+    .input3 ul li:nth-child(4){
+
+        margin-left: 50px;
+    }
+    .input4{
+
+        margin-left: 220px;
+    }
+    .input5{
+        margin-left: 425px;
+
+    }
+.input6 button{
+
+    margin-left: -750px;
+    width: 70px;
+    height: 20px;
+    font-size: 10px;
+    margin-top: -20px;
+}
+ }
